@@ -169,3 +169,148 @@ section {
     outline: none;
     width: 150px;
 }
+/* HOME LAYOUT LEFT TEXT RIGHT IMAGE */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.home-text {
+    text-align: left;
+}
+
+/* INFO BOX (HIDDEN BY DEFAULT) */
+.info-box {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 15px;
+}
+
+/* SHOW WHEN CLICKED */
+#education:target,
+#location:target,
+#experience:target {
+    display: block;
+}/* HOME LAYOUT LEFT TEXT RIGHT IMAGE */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.home-text {
+    text-align: left;
+}
+
+/* INFO BOX (HIDDEN BY DEFAULT) */
+.info-box {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 15px;
+}
+
+/* SHOW WHEN CLICKED */
+#education:target,
+#location:target,
+#experience:target {
+    display: block;
+}/* HOME LAYOUT LEFT TEXT RIGHT IMAGE */
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.home-text {
+    text-align: left;
+}
+
+/* INFO BOX (HIDDEN BY DEFAULT) */
+.info-box {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 15px;
+}
+
+/* SHOW WHEN CLICKED */
+#education:target,
+#location:target,
+#experience:target {
+    display: block;
+}
+/* TEXT INSIDE BOX */
+.skill-box p,
+.project-box p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* TITLE */
+.skill-box h4,
+.project-box h4 {
+    margin-bottom: 5px;
+}
+
+/* COMMON STYLE FOR BACKGROUND */
+.skill-box, .project-box {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* DARK OVERLAY (so text is readable) */
+.skill-box::before,
+.project-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+.skill-box * ,
+.project-box * {
+    position: relative;
+    z-index: 1;
+}
+
+/* SKILL BACKGROUNDS */
+.skill1 {
+    background-image: url("cooking\ pic.jfif");
+}
+
+.skill2 {
+    background-image: url("time\ pic.jfif");
+}
+
+.skill3 {
+    background-image: url("adap\ pic.jfif");
+}
+
+.skill4 {
+    background-image: url("problem\ pic.jfif");
+}
+
+/* PROJECT BACKGROUNDS */
+.proj1 {
+    background-image: url("peanut\ pic.webp");
+}
+
+.proj2 {
+    background-image: url("calcu\ pic.webp");
+}
